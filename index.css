@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding:0;
+  
+  font-family:  D-DIN-Bold,Arial,Verdana,sans-serif;
+  
+}
+@font-face {
+  font-family: D-DIN-Bold;
+  src: url(/asset/fonts/d-din/D-DIN-Bold.otf);
+}
+body{
+  background-color: black;
+  color: white;
+  
+}
+a{
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+svg{
+  fill : white;
+  margin-right: 35px;
+}
+header svg{
+  width: 180px;
+}
+header{
+  display: flex;
+  align-items: center;
+  padding: 20px 50px;
+  max-width: 1400px;
+  height: 40px;
+  margin: 0 auto;
+  top: 0;
+  z-index: 1;
+}
+nav{
+  padding: 0 25px;
+  display: flex;
+  align-items: center; 
+  
+}
+.right-nav{
+  position: fixed;
+  right: 0px;
+  top: 18px;
+  height: 40px;
+  align-items: center;
+  
+}
+.right-nav a{
+  padding-right: 10px;
+  align-items: center;
+  display: flex;
+  
+}
+nav ul a{
+padding: 0 13px;
+}
+span.material-symbols-outlined{
+  font-size: 20px;
+}
+
+.content-starlink-mission-container{
+  background-image: url(/asset/Star4_37_outsidebeach_IMG_4152_1_desktop_1_0ae909e40a.jpg);
+  
+}
+
+.content-ses-container{
+  background-image: url(/asset/ses.jpg);
+}
+.content-swot-container{
+  background-image: url(/asset/SWOT_Launch_Desktop_311b77d6b9.jpg);
+}
+.content-starship-container{
+  background-image: url(/asset/Homepage_Desktop_5ebdeb0c6c.webp);
+}
+section{
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  
+}
+section div.content{
+position: absolute;
+left:13%;
+bottom: 25%;
+max-width: 420px;
+}
+
+section div.content h2{
+  font-size: 42px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+section div.content h3{
+  font-size:20px ;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+section div.content a{
+  border: solid 1px white;
+  padding: 19px 50px;
+  font-size: 17px;
+}
+section div.content a:hover{
+  background-color: white;
+  color: black;
+  transition: .9s;
+}
+footer{
+  padding: 30px 0;
+}
+.socials-link{
+  display: flex;
+  justify-content: center;
+}
+.socials-link a{
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.socials-link a:hover{
+color: gray;
+text-decoration: underline;
+}
+a.copyright{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  color: gray;
+}
